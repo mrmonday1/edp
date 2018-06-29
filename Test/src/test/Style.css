@@ -1,0 +1,41 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 06 25, 18, 10:10:06 PM
+    Author     : asus
+*/
+
+.toggle-button{
+    
+    -fx-focus-color: transparent;
+    -fx-text-fill: transparent;
+    -fx-font-size: 18px;
+    
+}
+
+.toggle-button:selected{
+    
+    -fx-focus-color: black;
+    -fx-background-color: transparent;
+    
+}
+
+.toggle-button:disabled{
+    
+    -fx-opacity: 1.0;
+}
+
+.op-match{
+    
+    -fx-background-color: transparent;
+    -fx-text-fill: red;
+}
+
+.my-match{
+    
+    -fx-background-color: transparent;
+    -fx-text-fill: blue;
+}
