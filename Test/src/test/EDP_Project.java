@@ -74,7 +74,7 @@ public class EDP_Project extends Application implements Runnable{
     
     
     public EDP_Project() {
-        wordList = new String[] {"Fake","This","Stuff","I'm","In","I","Love","Java"};
+        wordList = new String[] {"Nayeon","Jeongyeon","Momo","Sana","Mina","Dahyun","Chaeyeong","Tzuyu"};
         
         numCols = (int)Math.ceil(Math.sqrt(wordList.length*2));
         numRows = numCols;
